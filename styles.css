@@ -104,8 +104,6 @@ img {
   height: 400px;
   left: 600px;
   top: 100px;
-  display: flex;
-  justify-content: center;
   background: #e5d8ff;
   border: 6px solid #ffffff;
   box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
@@ -125,12 +123,14 @@ img {
 
   justify-content: space-around;
   position: relative;
+
   left: 1355px;
 }
 #cimages img {
   position: relative;
   left: 65px;
   margin-top: 3px;
+  width: fit-content;
 }
 
 #container {
