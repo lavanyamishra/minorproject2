@@ -227,17 +227,17 @@ img {
   position: relative;
 }
 #img8 {
-  position: absolute;
-  left: 670px;
-  top: 700px;
-  float: inline-start;
+  position: fixed;
+  left: 700px;
+  top: 550px;
+  z-index: 1;
 }
 footer {
   position: relative;
   width: 1300px;
   height: 450px;
   left: 101px;
-  top: 375px;
+  top: 400px;
 
   background: #483eff;
   border-radius: 21px;
